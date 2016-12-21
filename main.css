@@ -1,0 +1,87 @@
+/* CSS Document */
+/* reset browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+/* end reset browser styles */
+
+@font-face{
+	font-family:Myriad;
+	src:url(font/MyriadPro-Bold.otf);
+}
+@font-face{
+	font-family:Myriadreg;
+	src:url(font/MyriadPro-Regular.otf);
+}
+.wrapper{
+	display:block;
+	width: 540px;
+    margin: 0 auto;
+}
+
+body{
+	background:url(img/background.jpg);
+	background-size:100%;
+	background-repeat:repeat-y;
+}
+
+h1{
+	font-family:Arial, "Arial Black", "Arial Narrow", "Arial Rounded MT Bold", "Arial Unicode MS";
+	font-size:36px;
+	color:#000;
+	text-transform:capitalize;
+	font-weight:bold;
+	margin-top:30px;
+	text-align:center;
+}
+
+img{
+	display:block;
+	margin: auto;
+	margin-top:20px;
+	border:1px solid #666;
+}
+
+h2{
+	font-family:Arial, "Arial Black", "Arial Narrow", "Arial Rounded MT Bold", "Arial Unicode MS";
+	color:#666666;
+	margin-top:20px;
+	padding:0 0 20px 0;
+	border-bottom:solid 1px #999999;
+}
+h3{
+	font-family:'Myriad';
+	font-size:18px;
+	margin-top:20px;
+}
+
+#sec1{
+	border-bottom:solid 1px #999999;
+}
+
+li{
+	font-family: 'Myriadreg';
+	line-height:20px;
+}
+
+p{
+	font-family: 'Myriadreg';
+	margin:20px 0 15px 23px;
+}
+#sec3{
+	border-bottom:solid 1px #999999;
+}
+#sec4{
+	margin-bottom:100px;
+}
+#sec3>p{
+	text-decoration:underline;
+	color:#0055d8;
+	font-style:italic;
+}
+
+
+
